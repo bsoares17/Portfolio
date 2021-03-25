@@ -1,3 +1,7 @@
 h1 {
   font-family: 'Cantarell', sans-serif;
 }
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
