@@ -20,18 +20,33 @@ body
 {
   background: #F2E4C9;
 }
-.expertise
-{
-  display: inline-block;
-  width: 28%;
-  padding: 30px 10px;
-  margin: 2%;
-  text-align: center;
-  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
-  background: #fff;
+
+
+
+/* GLOBAL STYLES */
+body {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
 }
-.expertise small
-{
-  padding-top: 10px;
-  display: block;
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
