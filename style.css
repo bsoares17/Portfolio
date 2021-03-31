@@ -20,3 +20,18 @@ body
 {
   background: #F2E4C9;
 }
+.expertise
+{
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+  background: #fff;
+}
+.expertise small
+{
+  padding-top: 10px;
+  display: block;
+}
