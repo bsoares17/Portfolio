@@ -20,15 +20,5 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-.circle
-    {
-    width:125px;
-    height:125px;
-    border-radius:63px;
-    font-size:10px;
-    color:#fff;
-    line-height:126px;
-    text-align:center;
-    background:black;
-    }
+
 
