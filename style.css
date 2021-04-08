@@ -8,7 +8,7 @@ h2
 }
 img
 {
-  float: right;
+  padding: right;
   border: 5px solid #555;
 }
 body
